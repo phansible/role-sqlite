@@ -2,23 +2,29 @@
 
 [![CI](https://github.com/phansible/role-sqlite/actions/workflows/ci.yml/badge.svg)](https://github.com/phansible/role-sqlite/actions/workflows/ci.yml)
 
-An Ansible Role that installs [SQLite](https://www.sqlite.org/) on Ubuntu specifically created with [Phansible](http://phansible.com/) in mind.
+An Ansible Role that installs the [SQLite](https://www.sqlite.org/) command line shell (`sqlite3`) from the distribution packages on Ubuntu and Debian, created with [Phansible](http://phansible.com/) in mind.
 
 ## Requirements
 
-// TODO
+- Ubuntu 22.04, 24.04, 26.04 or Debian 12, 13 (x86_64)
+- Ansible >= 2.15
+- Root access or `become` on the target
 
 ## Role Variables
 
-// TODO
+None.
 
 ## Dependencies
 
-// TODO
+None.
 
 ## Example Playbook
 
-// TODO
+```yaml
+- hosts: all
+  roles:
+    - role-sqlite
+```
 
 ## License
 
