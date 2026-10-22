@@ -1,6 +1,6 @@
 # Phansible Role: SQLite
 
-[![Build Status](https://travis-ci.org/phansible/role-sqlite.svg?branch=master)](https://travis-ci.org/phansible/role-sqlite)
+[![CI](https://github.com/phansible/role-sqlite/actions/workflows/ci.yml/badge.svg)](https://github.com/phansible/role-sqlite/actions/workflows/ci.yml)
 
 An Ansible Role that installs [SQLite](https://www.sqlite.org/) on Ubuntu specifically created with [Phansible](http://phansible.com/) in mind.
 
